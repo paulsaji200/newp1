@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Calendar, User, Clock, Pencil } from "lucide-react";
-
+import AddTask from "./AddTask";
 const initialTasks = [
   {
     id: 1,

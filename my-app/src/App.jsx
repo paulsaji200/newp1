@@ -2,10 +2,12 @@ import React from 'react'
 import TaskDashboard from './pages/dash'
 import DepartmentPage from './pages/depart'
 import UserDashboard from './pages/user'
+import Dashboard from './pages/dash'
+import AdminDashboard from './pages/example'
    
 const App = () => {
   return (
-    <UserDashboard/>
+    <AdminDashboard/>
 
 // <form class="max-w-sm mx-auto">
 //   <div class="mb-5">
